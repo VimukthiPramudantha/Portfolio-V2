@@ -38,8 +38,9 @@ export default function Navbar() {
   }
 
   const toggleLanguage = () => {
-    setLanguage(language === "en" ? "es" : "en")
-  }
+  setLanguage(language === "en" ? "si" : "en");
+};
+
 
   return (
     <nav
@@ -148,10 +149,12 @@ export default function Navbar() {
             <button
               onClick={toggleLanguage}
               className="flex items-center space-x-2 text-white hover:text-white/80 transition-colors glass px-3 py-2 rounded-lg"
-              aria-label={`Switch to ${language === "en" ? "Spanish" : "English"} language`}
+              aria-label={`Switch to ${language === "en" ? "Sinhala" : "English"} language`}
             >
               <Globe size={16} />
-              <span className="text-sm font-medium">{language === "en" ? "ES" : "EN"}</span>
+              <span className="text-sm font-medium">
+          {language === "en" ? "SI" : "EN"}
+            </span>
             </button>
           </div>
 
