@@ -13,7 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Vibecoder & Growth Strategist",
+  title: "Vimukthi Pramudantha",
   description:
     "Portfolio de Artu Grande: vibecoder, product designer y growth strategist. Experto en Web3, IA y sostenibilidad.",
   keywords: [
