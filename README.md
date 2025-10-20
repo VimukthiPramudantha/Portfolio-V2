@@ -28,7 +28,7 @@ It showcases my projects, skills, and experience as a **Software Engineer** spec
     ```bash
     npm run dev
 
-5.Open your browser and visit http://localhost:3000
+5. **Open your browser and visit**   http://localhost:3000
  (or the URL shown in your terminal).
 
 ## Live Demo
