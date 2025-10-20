@@ -29,8 +29,8 @@ const translations = {
     "hero.title": "I vibecode and scale products people love",
     "hero.card1": "Expert in scalable product design & marketing.",
     "hero.card2": "Passionate about Web3, AI, and sustainability.",
-    "hero.card3": "Remote work across 15+ countries as a digital nomad.",
-    "hero.card4": "Helped 40+ companies with impactful solutions.",
+    "hero.card3": "Remote work across 5+ countries as a digital nomad.",
+    "hero.card4": "Helped 4+ companies with impactful solutions.",
 
     // Footer
     "footer.portfolio": "PORTFOLIO",

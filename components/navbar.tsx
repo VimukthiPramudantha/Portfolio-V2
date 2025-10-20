@@ -56,8 +56,8 @@ export default function Navbar() {
         }`}
       >
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-lg sm:text-xl font-bold text-white md:flex-1">
-            Arturo Grande
+          <Link href="#home" className="text-lg sm:text-xl font-bold text-white md:flex-1">
+            Vimukthi Pramudantha 
           </Link>
 
           {isStreamingPage && (

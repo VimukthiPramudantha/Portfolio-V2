@@ -38,15 +38,15 @@ export default function HeroSection() {
                 className="rounded-full sm:w-[60px] sm:h-[60px]"
               />
             </div>
-            <div className="text-center">
+                      <div className="text-center">
               <p className="text-sm sm:text-lg text-white/75">
                 {language === "en" ? (
                   <>
-                    Welcome to my <strong>personal portfolio</strong> 👋
+                    Welcome to my <strong>personal portfolio</strong>
                   </>
                 ) : (
                   <>
-                    Bienvenido a mi <strong>portfolio personal</strong> 👋
+                    මගේ <strong>පුද්ගලික පෝර්ට්ෆෝලියෝවට</strong> සාදරයෙන් පිළිගනිමු 
                   </>
                 )}
               </p>
@@ -57,16 +57,16 @@ export default function HeroSection() {
             <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white px-2 mb-4">
               {language === "en" ? (
                 <>
-                  Vibecoder & Growth Strategist <br />
+                  Creative Developer & Product Strategist <br />
                   <span className="text-sm sm:text-lg md:text-xl lg:text-2xl font-normal text-white/90 block mt-4">
-                    I scale digital products people love, blending UX, Web3, and AI
+                    I build and scale digital products people love — blending UX, Web3, and AI
                   </span>
                 </>
               ) : (
                 <>
-                  Vibecoder & Growth Strategist <br />
+                  නිර්මාණාත්මක සංවර්ධක හා නිෂ්පාදන මාර්ගගත විවේචකයෙක් <br />
                   <span className="text-sm sm:text-lg md:text-xl lg:text-2xl font-normal text-white/90 block mt-4">
-                    Escalo productos digitales que la gente ama, combinando UX, Web3 e IA
+                    මම ජනතාවට ප්‍රියවූ ඩිජිටල් නිෂ්පාදන සාදමින් එවැනි නිෂ්පාදන ප්‍රමාණය කරමි — UX, Web3, සහ AI එක් කරමින්
                   </span>
                 </>
               )}
