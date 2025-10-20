@@ -1,47 +1,44 @@
-Personal Portfolio — Vimukthi Pramudantha
+# 🌐 Personal Portfolio  " Vimukthi Pramudantha "
 
-Welcome to my personal portfolio website — a reflection of my creativity, passion for design, and expertise in full-stack development.
-Built with React, TypeScript, and Tailwind CSS, this portfolio highlights my journey as a Software Engineer with a focus on UI/UX design, front-end development, and the MERN stack.
+This is my personal portfolio website built using **React**, **TypeScript**, and **Tailwind CSS**.  
+It showcases my projects, skills, and experience as a **Software Engineer** specializing in **UI/UX design** and **MERN stack development**.  
 
-✨ Features
+## 🛠️ Tech Stack  
+- React  
+- TypeScript  
+- Tailwind CSS  
+- Vite  
+- Netlify (for deployment)  
 
-🎨 Modern UI/UX — clean, minimal, and responsive design.
+## ⚙️ Installation & Setup  
 
-⚡ Fast & Optimized — powered by React + TypeScript for better performance and maintainability.
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/VimukthiPramudantha/Portfolio.git
 
-🌍 Fully Responsive — adaptive layout for all screen sizes and devices.
+2. **Navigate to the project folder**
+    ```bash
+    cd Portfolio
 
-💡 Dynamic Project Showcase — highlights my latest web and mobile app projects.
+3. **Install dependencies**
+    ```bash
+    npm install
 
-📱 React Native & MERN Integration — reflecting my cross-platform development skills.
+4. **Run the development server**
+    ```bash
+    npm run dev
 
-🛠️ Tech Stack
+5.Open your browser and visit http://localhost:3000
+ (or the URL shown in your terminal).
 
-Frontend: React, TypeScript, Tailwind CSS
+## Live Demo
 
-Backend: Node.js, Express
+🔗 https://vimukthipramudantha.netlify.app/
 
-Database: MongoDB
+## About
+Created and designed by Vimukthi Pramudantha, a passionate developer who loves blending clean design with powerful code.
 
-Mobile: React Native
 
-Deployment: Netlify
+You can copy this code directly into your `README.md` file at the root of your project, it will render perfectly formatted on GitHub.  
 
-🚀 Live Demo
-
-🔗 Visit Portfolio
-
-👨‍💻 About Me
-
-I’m Vimukthi Pramudantha, a passionate Software Engineer focused on crafting visually appealing and functional digital experiences.
-My work combines creativity, logic, and user-centered design — transforming ideas into engaging web and mobile solutions.
-
-📫 Contact
-
-Portfolio: vimukthipramudantha.netlify.app
-
-GitHub: github.com/VimukthiPramudantha
-
-LinkedIn: linkedin.com/in/vimukhi-pramudantha-944397279
-
-Email: vimukthipramudanth@gmail.com
+Would you like me to make a **slightly more visually styled** version (with emojis, section dividers, and badges for React, TypeScript, etc.) to make it stand out more to recruiters?
