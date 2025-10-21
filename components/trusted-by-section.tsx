@@ -49,7 +49,6 @@ export default function TrustedBySection() {
 
     calculateItemWidth()
     window.addEventListener("resize", calculateItemWidth)
-
     return () => window.removeEventListener("resize", calculateItemWidth)
   }, [])
 
@@ -58,18 +57,16 @@ export default function TrustedBySection() {
 
     const animate = () => {
       setTranslateX((prev) => {
-        const newTranslateX = prev - 1 // Move 1px per frame
-        const resetPoint = -(itemWidth * clients.length) // Reset when first set is completely hidden
-
+        const newTranslateX = prev - 1
+        const resetPoint = -(itemWidth * clients.length)
         if (newTranslateX <= resetPoint) {
-          return 0 // Reset to start position
+          return 0
         }
         return newTranslateX
       })
     }
 
-    const intervalId = setInterval(animate, 16) // ~60fps
-
+    const intervalId = setInterval(animate, 16)
     return () => clearInterval(intervalId)
   }, [itemWidth])
 
@@ -77,21 +74,33 @@ export default function TrustedBySection() {
     <section id="trusted-by" className="py-16 bg-black overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t("My Toolbox")}</h2>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto">{t("Tools, languages, and frameworks , love working with")}</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            {t("My Toolbox")}
+          </h2>
+          <p className="text-white/75 text-lg max-w-2xl mx-auto">
+            {t("Tools, languages, and frameworks I love working with")}
+          </p>
         </div>
 
         <div className="relative overflow-hidden">
-          <div ref={containerRef} className="flex transition-none" style={{ transform: `translateX(${translateX}px)` }}>
+          <div
+            ref={containerRef}
+            className="flex transition-none"
+            style={{ transform: `translateX(${translateX}px)` }}
+          >
             {/* First set of logos */}
             {clients.map((client, index) => (
-              <div key={`first-${index}`} className="logo-item flex-shrink-0 mx-6 flex items-center justify-center">
-                <div className="relative w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-110">
+              <div
+                key={`first-${index}`}
+                className="logo-item flex-shrink-0 mx-6 flex items-center justify-center"
+              >
+                <div className="relative w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-110 flex justify-center items-center">
                   <Image
                     src={client.logo || "/placeholder.svg"}
-                    alt={`${client.name} client logo - Artu Grande UX design Web3 fintech project portfolio`}
-                    fill
-                    className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                    alt={`${client.name} logo`}
+                    width={120}
+                    height={120}
+                    className="w-[40%] h-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
                     loading="lazy"
                   />
                 </div>
@@ -100,13 +109,17 @@ export default function TrustedBySection() {
 
             {/* Second set for seamless loop */}
             {clients.map((client, index) => (
-              <div key={`second-${index}`} className="logo-item flex-shrink-0 mx-6 flex items-center justify-center">
-                <div className="relative w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-110">
+              <div
+                key={`second-${index}`}
+                className="logo-item flex-shrink-0 mx-6 flex items-center justify-center"
+              >
+                <div className="relative w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-110 flex justify-center items-center">
                   <Image
                     src={client.logo || "/placeholder.svg"}
-                    alt={`${client.name} client logo - Artu Grande UX design Web3 fintech project portfolio`}
-                    fill
-                    className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                    alt={`${client.name} logo`}
+                    width={120}
+                    height={120}
+                    className="w-[40%] h-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
                     loading="lazy"
                   />
                 </div>
@@ -114,6 +127,7 @@ export default function TrustedBySection() {
             ))}
           </div>
 
+          {/* Gradient overlays */}
           <div className="absolute left-0 top-0 bottom-0 w-16 md:w-24 bg-gradient-to-r from-black via-black/80 to-transparent pointer-events-none z-10" />
           <div className="absolute right-0 top-0 bottom-0 w-16 md:w-24 bg-gradient-to-l from-black via-black/80 to-transparent pointer-events-none z-10" />
         </div>
