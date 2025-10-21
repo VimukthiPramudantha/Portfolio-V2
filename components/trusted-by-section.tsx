@@ -77,8 +77,8 @@ export default function TrustedBySection() {
     <section id="trusted-by" className="py-16 bg-black overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t("trustedBy.title")}</h2>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto">{t("trustedBy.subtitle")}</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t("My Toolbox")}</h2>
+          <p className="text-white/75 text-lg max-w-2xl mx-auto">{t("Tools, languages, and frameworks , love working with")}</p>
         </div>
 
         <div className="relative overflow-hidden">
