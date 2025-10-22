@@ -15,148 +15,149 @@ interface PortfolioItem {
 const productDesignItems: PortfolioItem[] = [
   {
     id: "trebly",
-    title: "Trebly",
-    image: "/images/portfolio/treblyportada.png",
-    link: "https://medium.com/@infoarturogrande/trebly-redefining-lotteries-with-no-losses-27bfad6506ec",
+    title: "Phira",
+    image: "/images/portfolio/Phira.png",
+    link: "https://github.com/Sandakan/Phira",
     delay: 0,
   },
   {
     id: "ownomad",
-    title: "OwnNomad",
-    image: "/images/portfolio/ownomad-portada.png",
-    link: "https://medium.com/@infoarturogrande/building-the-future-of-real-estate-through-tokenization-c50823f2fe01",
+    title: "ExamPro",
+    image: "/images/portfolio/ExamPro.png",
+    link: "https://exampro.netlify.app/",
     delay: 100,
   },
   {
     id: "betrusty",
-    title: "BeTrusty",
-    image: "/images/portfolio/betrustyportada.png",
-    link: "https://medium.com/@infoarturogrande/how-betrusty-transforms-property-rentals-3503ddcb8e9c",
+    title: "Veterinary Booking System",
+    image: "/images/portfolio/Veterinary_Booking_System.png",
+    link: "https://github.com/VimukthiPramudantha/Veterinary_Booking_System",
     delay: 200,
   },
   {
     id: "refillit",
-    title: "Refill It",
-    image: "/images/portfolio/refillitportada.png",
-    link: "https://medium.com/@infoarturogrande/refill-it-fighting-plastic-waste-with-blockchain-and-incentives-f2b4fd16170d",
+    title: "CIPC Campus ",
+    image: "/images/portfolio/CIPC_Campus.png",
+    link: "https://github.com/VimukthiPramudantha/CIPC_Campus",
     delay: 300,
-  },
-  {
-    id: "siwa",
-    title: "SIWA",
-    image: "/images/portfolio/siwaportada.png",
-    link: "https://medium.com/@infoarturogrande/bridging-education-and-web3-siwas-gamified-path-to-growth-29defd9ec79e",
-    delay: 150,
-  },
-  {
-    id: "wodpay",
-    title: "WodPay",
-    image: "/images/portfolio/wordpayportada.png",
-    link: "https://medium.com/@infoarturogrande/wodpay-simplifying-finances-for-fitness-coaches-747a434db841",
-    delay: 250,
-  },
-  {
-    id: "yellowcash",
-    title: "YellowCash",
-    image: "/images/portfolio/yellowcashportada.png",
-    link: "https://medium.com/@infoarturogrande/yellowcash-empowering-international-students-with-easy-transfers-3dee01ab8206",
-    delay: 350,
-  },
-  {
-    id: "eluter",
-    title: "Eluter",
-    image: "/images/portfolio/eluterportada.png",
-    link: "https://medium.com/@infoarturogrande/eluter-powering-global-payments-for-latin-american-businesses-405c32462b8e",
-    delay: 400,
-  },
-  {
-    id: "provacy",
-    title: "Provacy",
-    image: "/images/portfolio/provacyportada.png",
-    link: "https://medium.com/@infoarturogrande/provacy-reinventing-insurance-with-blockchain-and-ai-aab41a3ee81c",
-    delay: 450,
-  },
-  {
-    id: "petfundme",
-    title: "PetFundMe",
-    image: "/images/portfolio/petfundmeportada.png",
-    link: "https://medium.com/@infoarturogrande/how-petfundme-supports-ngos-and-pets-in-need-df501357ea86",
-    delay: 500,
-  },
-  {
-    id: "prutopia",
-    title: "Prutopia",
-    image: "/images/portfolio/prutopiaportada.png",
-    link: "https://medium.com/@infoarturogrande/prutopia-building-the-new-internet-cv-310620e21198",
-    delay: 550,
-  },
-  {
-    id: "glocal",
-    title: "Glocal",
-    image: "/images/portfolio/glocalportada.png",
-    link: "https://medium.com/@infoarturogrande/from-complexity-to-clarity-how-glocal-transforms-grant-access-89c74589e172",
-    delay: 600,
-  },
-  {
-    id: "baia",
-    title: "BAIA",
-    image: "/images/portfolio/baiaportada.png",
-    link: "https://medium.com/@infoarturogrande/about-baia-is-a-decentralized-platform-designed-to-provide-fast-transparent-and-direct-5c2738a394e7",
-    delay: 650,
-  },
-  {
-    id: "juntadas",
-    title: "Juntadas",
-    image: "/images/portfolio/juntadas.png",
-    link: "https://medium.com/@infoarturogrande/from-strangers-to-community-on-chain-dinners-for-real-connections-db61a85a12b0",
-    delay: 700,
-  },
+  }
+  // ,
+  // {
+  //   id: "siwa",
+  //   title: "SIWA",
+  //   image: "/images/portfolio/siwaportada.png",
+  //   link: "https://medium.com/@infoarturogrande/bridging-education-and-web3-siwas-gamified-path-to-growth-29defd9ec79e",
+  //   delay: 150,
+  // },
+  // {
+  //   id: "wodpay",
+  //   title: "WodPay",
+  //   image: "/images/portfolio/wordpayportada.png",
+  //   link: "https://medium.com/@infoarturogrande/wodpay-simplifying-finances-for-fitness-coaches-747a434db841",
+  //   delay: 250,
+  // },
+  // {
+  //   id: "yellowcash",
+  //   title: "YellowCash",
+  //   image: "/images/portfolio/yellowcashportada.png",
+  //   link: "https://medium.com/@infoarturogrande/yellowcash-empowering-international-students-with-easy-transfers-3dee01ab8206",
+  //   delay: 350,
+  // },
+  // {
+  //   id: "eluter",
+  //   title: "Eluter",
+  //   image: "/images/portfolio/eluterportada.png",
+  //   link: "https://medium.com/@infoarturogrande/eluter-powering-global-payments-for-latin-american-businesses-405c32462b8e",
+  //   delay: 400,
+  // },
+  // {
+  //   id: "provacy",
+  //   title: "Provacy",
+  //   image: "/images/portfolio/provacyportada.png",
+  //   link: "https://medium.com/@infoarturogrande/provacy-reinventing-insurance-with-blockchain-and-ai-aab41a3ee81c",
+  //   delay: 450,
+  // },
+  // {
+  //   id: "petfundme",
+  //   title: "PetFundMe",
+  //   image: "/images/portfolio/petfundmeportada.png",
+  //   link: "https://medium.com/@infoarturogrande/how-petfundme-supports-ngos-and-pets-in-need-df501357ea86",
+  //   delay: 500,
+  // },
+  // {
+  //   id: "prutopia",
+  //   title: "Prutopia",
+  //   image: "/images/portfolio/prutopiaportada.png",
+  //   link: "https://medium.com/@infoarturogrande/prutopia-building-the-new-internet-cv-310620e21198",
+  //   delay: 550,
+  // },
+  // {
+  //   id: "glocal",
+  //   title: "Glocal",
+  //   image: "/images/portfolio/glocalportada.png",
+  //   link: "https://medium.com/@infoarturogrande/from-complexity-to-clarity-how-glocal-transforms-grant-access-89c74589e172",
+  //   delay: 600,
+  // },
+  // {
+  //   id: "baia",
+  //   title: "BAIA",
+  //   image: "/images/portfolio/baiaportada.png",
+  //   link: "https://medium.com/@infoarturogrande/about-baia-is-a-decentralized-platform-designed-to-provide-fast-transparent-and-direct-5c2738a394e7",
+  //   delay: 650,
+  // },
+  // {
+  //   id: "juntadas",
+  //   title: "Juntadas",
+  //   image: "/images/portfolio/juntadas.png",
+  //   link: "https://medium.com/@infoarturogrande/from-strangers-to-community-on-chain-dinners-for-real-connections-db61a85a12b0",
+  //   delay: 700,
+  // },
 ]
 
-const marketingItems: PortfolioItem[] = [
-  {
-    id: "c2t",
-    title: "Car2token",
-    image: "/images/portfolio/c2tportada.png",
-    link: "https://medium.com/@infoarturogrande/car2token-turning-cars-into-collateral-with-blockchain-1ad339c1ca3a",
-    delay: 0,
-  },
-  {
-    id: "snet",
-    title: "SingularityNET",
-    image: "/images/portfolio/snetportada.png",
-    link: "https://medium.com/@infoarturogrande/singularitynet-is-a-groundbreaking-decentralized-platform-that-democratizes-access-to-artificial-33661b414796",
-    delay: 100,
-  },
-  {
-    id: "blockhouse",
-    title: "Blockhouse",
-    image: "/images/portfolio/blockhouseportada.png",
-    link: "https://medium.com/@infoarturogrande/refi-day-bringing-regenerative-finance-to-argentina-cc872a767e87",
-    delay: 200,
-  },
-  {
-    id: "saiaconf",
-    title: "SAIAConf",
-    image: "/images/portfolio/saiaconfportada.png",
-    link: "https://medium.com/@infoarturogrande/from-meetups-to-saiaconf-the-rise-of-argentinas-ai-community-ef8b93e4a66f",
-    delay: 300,
-  },
-  {
-    id: "nerdconf",
-    title: "NerdConf",
-    image: "/images/portfolio/nerdconfportada.png",
-    link: "https://medium.com/@infoarturogrande/nerdconf-building-a-cross-disciplinary-tech-community-in-latam-d250f70cf177",
-    delay: 400,
-  },
-  {
-    id: "web3makers",
-    title: "Web3Makers",
-    image: "/images/portfolio/web3makersportada.png",
-    link: "https://medium.com/@infoarturogrande/decentralizing-tech-communities-beyond-capital-cities-7da98d168847",
-    delay: 500,
-  },
-]
+// const marketingItems: PortfolioItem[] = [
+//   {
+//     id: "c2t",
+//     title: "Car2token",
+//     image: "/images/portfolio/c2tportada.png",
+//     link: "https://medium.com/@infoarturogrande/car2token-turning-cars-into-collateral-with-blockchain-1ad339c1ca3a",
+//     delay: 0,
+//   },
+//   {
+//     id: "snet",
+//     title: "SingularityNET",
+//     image: "/images/portfolio/snetportada.png",
+//     link: "https://medium.com/@infoarturogrande/singularitynet-is-a-groundbreaking-decentralized-platform-that-democratizes-access-to-artificial-33661b414796",
+//     delay: 100,
+//   },
+//   {
+//     id: "blockhouse",
+//     title: "Blockhouse",
+//     image: "/images/portfolio/blockhouseportada.png",
+//     link: "https://medium.com/@infoarturogrande/refi-day-bringing-regenerative-finance-to-argentina-cc872a767e87",
+//     delay: 200,
+//   },
+//   {
+//     id: "saiaconf",
+//     title: "SAIAConf",
+//     image: "/images/portfolio/saiaconfportada.png",
+//     link: "https://medium.com/@infoarturogrande/from-meetups-to-saiaconf-the-rise-of-argentinas-ai-community-ef8b93e4a66f",
+//     delay: 300,
+//   },
+//   {
+//     id: "nerdconf",
+//     title: "NerdConf",
+//     image: "/images/portfolio/nerdconfportada.png",
+//     link: "https://medium.com/@infoarturogrande/nerdconf-building-a-cross-disciplinary-tech-community-in-latam-d250f70cf177",
+//     delay: 400,
+//   },
+//   {
+//     id: "web3makers",
+//     title: "Web3Makers",
+//     image: "/images/portfolio/web3makersportada.png",
+//     link: "https://medium.com/@infoarturogrande/decentralizing-tech-communities-beyond-capital-cities-7da98d168847",
+//     delay: 500,
+//   },
+// ]
 
 export default function PortfolioSection() {
   const { t } = useLanguage()
@@ -190,7 +191,7 @@ export default function PortfolioSection() {
             className="text-lg md:text-xl text-white/75 max-w-3xl mx-auto animate-fadeInUp mb-8"
             style={{ animationDelay: "0.2s" }}
           >
-            {t("portfolio.subtitle")}
+            {t("A showcase of my latest projects, blending creativity, usability, and clean design")}
           </p>
 
           <div className="flex justify-center gap-4 mb-8">
@@ -202,9 +203,9 @@ export default function PortfolioSection() {
                   : "bg-white/10 text-white/70 hover:bg-white/20 hover:text-white"
               }`}
             >
-              🎨 Product Design
+              Projects
             </button>
-            <button
+            {/* <button
               onClick={() => setActiveCategory("marketing")}
               className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 ${
                 activeCategory === "marketing"
@@ -213,7 +214,7 @@ export default function PortfolioSection() {
               }`}
             >
               🤝 Marketing & Community Building
-            </button>
+            </button> */}
           </div>
         </div>
 
