@@ -128,13 +128,13 @@ export default function Navbar() {
               >
                 {t("nav.streaming")}
               </Link> */}
-              <Link
-                href="/hackathon"
-                className="nav-item text-white/75 hover:text-white transition-colors relative"
-                aria-label="Navigate to hackathon page"
-              >
-                {t("nav.hackathon")}
-              </Link>
+                                                                                                    {/* <Link
+                                                                                                      href="/hackathon"
+                                                                                                      className="nav-item text-white/75 hover:text-white transition-colors relative"
+                                                                                                      aria-label="Navigate to hackathon page"
+                                                                                                    >
+                                                                                                      {t("nav.hackathon")}
+                                                                                                    </Link> */}
               <button
                 onClick={() => scrollToSection("contact")}
                 className="nav-item text-white/75 hover:text-white transition-colors relative"
