@@ -108,18 +108,18 @@ export default function Navbar() {
                 {t("nav.portfolio")}
               </button>
               <button
+                onClick={() => scrollToSection("career")}
+                className="nav-item text-white/75 hover:text-white transition-colors relative"
+                aria-label="Navigate to career section"
+              >
+                {t("Career")}
+              </button>
+              <button
                 onClick={() => scrollToSection("blog")}
                 className="nav-item text-white/75 hover:text-white transition-colors relative"
                 aria-label="Navigate to articles section"
               >
                 {t("nav.articles")}
-              </button>
-              <button
-                onClick={() => scrollToSection("talks")}
-                className="nav-item text-white/75 hover:text-white transition-colors relative"
-                aria-label="Navigate to talks section"
-              >
-                {t("nav.talks")}
               </button>
               <Link
                 href="/streaming"
@@ -227,12 +227,12 @@ export default function Navbar() {
                 {t("nav.articles")}
               </button>
               <button
-                onClick={() => scrollToSection("talks")}
+                onClick={() => scrollToSection("career")}
                 className="text-white hover:text-white/80 transition-colors py-2"
                 role="menuitem"
-                aria-label="Navigate to talks section"
+                aria-label="Navigate to career section"
               >
-                {t("nav.talks")}
+                {t("Career")}
               </button>
               <Link
                 href="/streaming"
