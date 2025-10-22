@@ -82,13 +82,28 @@ export default function AboutSection() {
 
             {/* About Content */}
             <div className="space-y-6 text-center lg:text-left">
-              <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">About Me – Artu Grande</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">About Me – Vimukthi Pramudantha</h2>
 
               <div className="space-y-4 text-white/75 leading-relaxed">
-                <p>{renderBioWithLinks(t("about.bio1"))}</p>
-                <p>{renderBioWithLinks(t("about.bio2"))}</p>
-                <p>{renderBioWithLinks(t("about.bio3"))}</p>
-              </div>
+                        <p>
+                          {renderBioWithLinks(
+                            "I’m *Vimukthi Pramudantha*, a passionate Software Engineering undergraduate at ICBT Campus with a focus on *UI/UX design and front-end development*. I love crafting clean, user-centered digital experiences that balance functionality and emotion."
+                          )}
+                        </p>
+
+                        <p>
+                          {renderBioWithLinks(
+                            "Over the years, I’ve worked on projects ranging from *mobile apps* and *websites* to complete digital ecosystems — including *Furry Feast* (a pet food delivery app) and *The Gallery Café website*. My work is driven by curiosity and the belief that every interaction matters."
+                          )}
+                        </p>
+
+                        <p>
+                          {renderBioWithLinks(
+                            "Currently, I’m exploring *AI integrations*, *Firebase*, and *React Native* to push the limits of what interactive experiences can do. Beyond code, I enjoy designing interfaces that tell a story and collaborating with others who are just as excited about technology and creativity."
+                          )}
+                        </p>
+                      </div>
+
 
               <div className="flex justify-center lg:justify-start items-center gap-6 mt-8">
                 <a
@@ -97,13 +112,13 @@ export default function AboutSection() {
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <Image
+                  {/* <Image
                     src="/icons/polkadot.svg"
                     alt="Polkadot Blockchain Academy - Artu Grande graduate"
                     width={240}
                     height={240}
                     className="hover:scale-105 transition-transform duration-300"
-                  />
+                  /> */}
                 </a>
                 <a
                   href="https://devconnect.org/"
@@ -111,13 +126,13 @@ export default function AboutSection() {
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <Image
+                  {/* <Image
                     src="/icons/devconnect.svg"
                     alt="Devconnect ARG Ethereum Community Organizers - Artu Grande Scholar"
                     width={240}
                     height={240}
                     className="hover:scale-105 transition-transform duration-300"
-                  />
+                  /> */}
                 </a>
               </div>
 
@@ -125,11 +140,11 @@ export default function AboutSection() {
                 <Button
                   className="glass glass-hover border border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 mt-8 group transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/10"
                   onClick={() =>
-                    window.open("https://wa.me/5491154000421?text=Hola%2C%20%C2%BFC%C3%B3mo%20est%C3%A1s%3F", "_blank")
+                    window.open("https://wa.me/+94777314204", "_blank")
                   }
                 >
                   <MessageCircle className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
-                  {t("about.cta")}
+                  {t("WhatsApp")}
                 </Button>
               </div>
             </div>
