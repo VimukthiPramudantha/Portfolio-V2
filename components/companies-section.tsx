@@ -31,7 +31,7 @@ export default function CompaniesSection() {
           <div className="space-y-6">
             <div className="flex justify-center mb-6">
               <Image
-                src="/icons/eluterlogo.svg"
+                src="/icons/SLT.png"
                 alt="Eluter Logo"
                 width={120}
                 height={60}
@@ -40,14 +40,14 @@ export default function CompaniesSection() {
             </div>
 
             <p className="text-white/75 leading-relaxed mb-6">
-              {renderTextWithBold(t("companies.eluter.description"))}
+              {renderTextWithBold(t("Completed an internship at SLT-Mobitel, where I contributed to front-end development and UI/UX improvements for internal systems and digital products."))}
             </p>
 
             {/* Eluter Video */}
             <div className="mb-6">
               <div style={{ position: "relative", paddingTop: "56.25%" }}>
                 <iframe
-                  src="https://iframe.mediadelivery.net/embed/468731/c82c6556-b7ee-4854-88bb-6f3b1f11eac7?autoplay=false&loop=false&muted=false&preload=true&responsive=true"
+                  src="https://www.sltmobitel.lk/"
                   loading="lazy"
                   style={{ border: 0, position: "absolute", top: 0, height: "100%", width: "100%" }}
                   allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
@@ -59,15 +59,15 @@ export default function CompaniesSection() {
 
             <Button
               className="glass glass-hover border border-white/20 hover:border-white/40 text-white font-semibold px-6 py-3 transition-all duration-300 hover:scale-105"
-              onClick={() => window.open("https://www.eluter.com/", "_blank")}
+              onClick={() => window.open("https://www.sltmobitel.lk/", "_blank")}
             >
-              {t("companies.eluter.button")}
+              {t("SLT Mobitel Website")}
             </Button>
           </div>
 
           {/* DESAFIA Column */}
           <div className="space-y-6">
-            <div className="flex justify-center mb-6">
+            {/* <div className="flex justify-center mb-6">
               <Image
                 src="/icons/desafialogo.svg"
                 alt="DESAFIA Logo"
@@ -75,14 +75,14 @@ export default function CompaniesSection() {
                 height={60}
                 className="opacity-90 hover:opacity-100 transition-opacity duration-300"
               />
-            </div>
+            </div> */}
 
-            <p className="text-white/75 leading-relaxed mb-6">
+            {/* <p className="text-white/75 leading-relaxed mb-6">
               {renderTextWithBold(t("companies.desafia.description"))}
-            </p>
+            </p> */}
 
             {/* DESAFIA Video */}
-            <div className="mb-6">
+            {/* <div className="mb-6">
               <div style={{ position: "relative", paddingTop: "56.25%" }}>
                 <iframe
                   src="https://iframe.mediadelivery.net/embed/468731/a1f38e78-d887-4a33-a625-34d099932bc8?autoplay=false&loop=false&muted=false&preload=true&responsive=true"
@@ -93,14 +93,14 @@ export default function CompaniesSection() {
                   className="rounded-lg"
                 />
               </div>
-            </div>
+            </div> */}
 
-            <Button
+            {/* <Button
               className="glass glass-hover border border-white/20 hover:border-white/40 text-white font-semibold px-6 py-3 transition-all duration-300 hover:scale-105"
               onClick={() => window.open("https://desafia.tech/", "_blank")}
             >
               {t("companies.desafia.button")}
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
