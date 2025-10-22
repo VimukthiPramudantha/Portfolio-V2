@@ -79,7 +79,7 @@ export default function Navbar() {
                 className="inline-flex items-center space-x-2 nav-item text-white/75 hover:text-white transition-colors relative"
               >
                 <ArrowLeft size={20} />
-                <span>{t("hackathon.backHome")}</span>
+                <span>{t("Back To Home")}</span>
               </Link>
             </div>
           )}
@@ -121,13 +121,13 @@ export default function Navbar() {
               >
                 {t("nav.articles")}
               </button>
-              <Link
+              {/* <Link
                 href="/streaming"
                 className="nav-item text-white/75 hover:text-white transition-colors relative"
                 aria-label="Navigate to streaming page"
               >
                 {t("nav.streaming")}
-              </Link>
+              </Link> */}
               <Link
                 href="/hackathon"
                 className="nav-item text-white/75 hover:text-white transition-colors relative"
@@ -234,7 +234,7 @@ export default function Navbar() {
               >
                 {t("Career")}
               </button>
-              <Link
+              {/* <Link
                 href="/streaming"
                 className="text-white hover:text-white/80 transition-colors py-2 block"
                 role="menuitem"
@@ -242,7 +242,7 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {t("nav.streaming")}
-              </Link>
+              </Link> */}
               <Link
                 href="/hackathon"
                 className="text-white hover:text-white/80 transition-colors py-2 block"

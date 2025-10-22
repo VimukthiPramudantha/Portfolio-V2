@@ -21,100 +21,105 @@ export default function Footer() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 text-center md:text-left">
-          {/* Portfolio */}
+          {/* Home Section */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-white">{t("footer.portfolio")}</h3>
+            <h3 className="text-2xl font-bold mb-6 text-white">Home</h3>
             <div className="space-y-3">
               <div
                 className="text-white/75 hover:text-white transition-colors cursor-pointer"
-                onClick={() => scrollToSection("portfolio")}
+                onClick={() => scrollToSection("home")}
               >
-                {t("footer.portfolio.design")}
+                Go to Home
               </div>
             </div>
           </div>
 
-          {/* About Me */}
+          {/* About Section */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-white">{t("footer.about")}</h3>
+            <h3 className="text-2xl font-bold mb-6 text-white">About</h3>
             <div className="space-y-3">
               <div
                 className="text-white/75 hover:text-white transition-colors cursor-pointer"
                 onClick={() => scrollToSection("about")}
               >
-                {t("footer.about.bio")}
+                About Me
               </div>
               <div
                 className="text-white/75 hover:text-white transition-colors cursor-pointer"
-                onClick={() => scrollToSection("talks")}
+                onClick={() => scrollToSection("career")}
               >
-                {t("footer.about.talks")}
+                Career
               </div>
               <div
                 className="text-white/75 hover:text-white transition-colors cursor-pointer"
                 onClick={() => scrollToSection("blog")}
               >
-                {t("footer.about.articles")}
+                Articles
               </div>
             </div>
           </div>
 
           {/* Let's Connect */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-white">{t("footer.connect")}</h3>
-            <p className="text-white/75 mb-4">
-              {t("footer.connect.project")}{" "}
-              
+            <h3 className="text-2xl font-bold mb-6 text-white">Let's Connect</h3>
+            <p
+              className="text-white/75 mb-4 cursor-pointer hover:text-white transition-colors"
+              onClick={() => scrollToSection("portfolio")}
+            >
+              Projects
             </p>
-            <p className="text-white/75 mb-6">info@arturogrande.com</p>
+            <p className="text-white/75 mb-6">vimukthipramudanth@gmail.com</p>
 
             <div className="mb-6">
               <Button
                 className="glass glass-hover border border-white/20 hover:border-white/40 text-white font-semibold px-6 py-3 group transition-all duration-300 hover:scale-105"
                 onClick={() =>
-                  window.open("https://wa.me/5491154000421?text=Hola%2C%20%C2%BFC%C3%B3mo%20est%C3%A1s%3F", "_blank")
+                  window.open("https://wa.me/94777314204?text=Hello%20Vimukthi%2C%20I%27d%20like%20to%20connect!", "_blank")
                 }
               >
                 <MessageCircle className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform duration-300" />
-                {t("about.cta")}
+                Get in Touch
               </Button>
             </div>
 
+            {/* Social Links */}
             <div className="flex space-x-4 justify-center md:justify-start">
+              {/* Facebook */}
               <Button
                 size="icon"
                 className="glass glass-hover rounded-full border-white/20 hover:border-white/40"
-                onClick={() => window.open("https://twitter.com/ArtuGrande", "_blank")}
+                onClick={() => window.open("https://web.facebook.com/vimukthi.pramudantha/", "_blank")}
               >
-                <Image src="/icons/x.svg" alt="X (Twitter)" width={20} height={20} className="w-5 h-5" />
+                <Image src="/icons/facebook.png" alt="Facebook" width={20} height={20} className="w-5 h-5" />
               </Button>
+
+              {/* Instagram */}
               <Button
                 size="icon"
                 className="glass glass-hover rounded-full border-white/20 hover:border-white/40"
-                onClick={() => window.open("https://www.instagram.com/artugrande/", "_blank")}
+                onClick={() => window.open("", "_blank")}
               >
                 <Image src="/icons/instagram.svg" alt="Instagram" width={20} height={20} className="w-5 h-5" />
               </Button>
+
+              {/* LinkedIn */}
               <Button
                 size="icon"
                 className="glass glass-hover rounded-full border-white/20 hover:border-white/40"
-                onClick={() => window.open("https://www.linkedin.com/in/arturo-grande/", "_blank")}
+                onClick={() =>
+                  window.open("https://www.linkedin.com/in/vimukhi-pramudantha-944397279/", "_blank")
+                }
               >
                 <Image src="/icons/linkedin.svg" alt="LinkedIn" width={20} height={20} className="w-5 h-5" />
               </Button>
+
+              {/* GitHub */}
               <Button
                 size="icon"
                 className="glass glass-hover rounded-full border-white/20 hover:border-white/40"
-                onClick={() => window.open("https://medium.com/@infoarturogrande", "_blank")}
+                onClick={() => window.open("https://github.com/VimukthiPramudantha", "_blank")}
               >
-                <Image src="/icons/medium.svg" alt="Medium" width={20} height={20} className="w-5 h-5" />
-              </Button>
-              <Button
-                size="icon"
-                className="glass glass-hover rounded-full border-white/20 hover:border-white/40"
-                onClick={() => window.open("https://v0.app/user/artugrandey", "_blank")}
-              >
-                <Image src="/icons/v0logo.svg" alt="v0" width={20} height={20} className="w-5 h-5" />
+                <Image src="/icons/github.png" alt="GitHub" width={20} height={20} className="w-5 h-5" />
               </Button>
             </div>
           </div>
@@ -123,7 +128,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="flex justify-center items-center pt-8 border-t border-white/10">
           <div className="text-white/75 text-sm">
-            {t("footer.made")} <span className="font-bold text-white">ARTUROGRANDE.COM</span> © 2025
+            Designed & Built by <span className="font-bold text-white">Vimukthi Pramudantha</span> © 2025
           </div>
         </div>
       </div>
