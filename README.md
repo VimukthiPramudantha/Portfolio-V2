@@ -1,44 +1,88 @@
-# 🌐 Personal Portfolio  " Vimukthi Pramudantha "
+# 🌐 Personal Portfolio V2 - Vimukthi Pramudantha
 
-This is my personal portfolio website built using **React**, **TypeScript**, and **Tailwind CSS**.  
-It showcases my projects, skills, and experience as a **Software Engineer** specializing in **UI/UX design** and **MERN stack development**.  
+This is the second version of my personal portfolio website, re-engineered for performance and modern aesthetics. It showcases my projects, skills, and experience as a **Software Engineer** specializing in **UI/UX design** and **Full Stack development**.
 
-## 🛠️ Tech Stack  
-- React  
-- TypeScript  
-- Tailwind CSS  
-- Vite  
-- Netlify (for deployment)  
+Built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**, featuring smooth scroll animations and a responsive design.
 
-## ⚙️ Installation & Setup  
+## 🚀 Features
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/VimukthiPramudantha/Portfolio.git
+-   **Modern UI/UX**: Clean, dark-themed design with smooth fade-in animations.
+-   **Responsive Layout**: Fully optimized for mobile, tablet, and desktop devices.
+-   **Dynamic Components**: Built with modular components for scalability.
+-   **Sections**:
+    -   **Hero Section**: Introduction and welcome message.
+    -   **Trusted By**: Showcase of clients or partners.
+    -   **About**: Professional background and skills.
+    -   **Companies**: Companies I've worked with.
+    -   **Portfolio**: collection of my featured projects.
+    -   **Talks**: Conference talks and presentations.
+    -   **Blog**: Tech articles and insights.
 
-2. **Navigate to the project folder**
+## 🛠️ Tech Stack
+
+-   **Framework**: [Next.js 14](https://nextjs.org/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components**: [Radix UI](https://www.radix-ui.com/) (accessible primitives)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
+-   **Form Handling**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
+
+## ⚙️ Installation & Setup
+
+1.  **Clone the repository**
+
     ```bash
-    cd Portfolio
+    git clone https://github.com/VimukthiPramudantha/Portfolio-V2.git
+    cd Portfolio-V2
+    ```
 
-3. **Install dependencies**
+2.  **Install dependencies**
+
+    Using `pnpm` (recommended):
+
+    ```bash
+    pnpm install
+    ```
+
+    Or using `npm` / `yarn`:
+
     ```bash
     npm install
+    # or
+    yarn install
+    ```
 
-4. **Run the development server**
+3.  **Run the development server**
+
     ```bash
+    pnpm dev
+    # or
     npm run dev
+    ```
 
-5. **Open your browser and visit**   http://localhost:3000
- (or the URL shown in your terminal).
+4.  **Open your browser**
 
-## Live Demo
+    Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-🔗 https://vimukthipramudantha.netlify.app/
+## 📜 Scripts
 
-## About
-Created and designed by Vimukthi Pramudantha, a passionate developer who loves blending clean design with powerful code.
+-   `dev`: Runs the development server.
+-   `build`: Builds the application for production.
+-   `start`: Starts the production server.
+-   `lint`: Runs ESLint to check for code quality issues.
 
+## 🤝 Contributing
 
-You can copy this code directly into your `README.md` file at the root of your project, it will render perfectly formatted on GitHub.  
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/VimukthiPramudantha/Portfolio-V2/issues).
 
-Would you like me to make a **slightly more visually styled** version (with emojis, section dividers, and badges for React, TypeScript, etc.) to make it stand out more to recruiters?
+## 👤 Author
+
+**Vimukthi Pramudantha**
+
+-   Website: [https://vimukthipramudantha.netlify.app/](https://vimukthipramudantha.netlify.app/)
+-   GitHub: [@VimukthiPramudantha](https://github.com/VimukthiPramudantha)
+
+---
+
+_This project was bootstrapped with [v0](https://v0.dev/)._
