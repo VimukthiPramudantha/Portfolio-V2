@@ -31,6 +31,42 @@ export default function CompaniesSection() {
           <div className="space-y-6">
             <div className="flex justify-center mb-6">
               <Image
+                src="/icons/Harbour_lines.png"
+                alt="Eluter Logo"
+                width={120}
+                height={60}
+                className="opacity-90 hover:opacity-100 transition-opacity duration-300"
+              />
+            </div>
+
+            <p className="text-white/75 leading-relaxed mb-6">
+              {renderTextWithBold(t("Associate Software Engineer at Harbour Lines (PVT) LTD, a freight forwarding company, where I contribute to the development and maintenance of software solutions that support logistics and operational workflows."))}
+            </p>
+
+            {/* Eluter Video */}
+            <div className="mb-6">
+              <div style={{ position: "relative", paddingTop: "56.25%" }}>
+                <iframe
+                  src="https://harbourlines.com/contact/"
+                  loading="lazy"
+                  style={{ border: 0, position: "absolute", top: 0, height: "100%", width: "100%" }}
+                  allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;"
+                  allowFullScreen={true}
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+
+            <Button
+              className="glass glass-hover border border-white/20 hover:border-white/40 text-white font-semibold px-6 py-3 transition-all duration-300 hover:scale-105"
+              onClick={() => window.open("https://harbourlines.com/contact/", "_blank")}
+            >
+              {t("Harbour Lines  Website")}
+            </Button>
+          </div>
+          <div className="space-y-6">
+            <div className="flex justify-center mb-6">
+              <Image
                 src="/icons/SLT.png"
                 alt="Eluter Logo"
                 width={120}
