@@ -24,10 +24,11 @@ export default function CareerSection() {
   }
 
   const experience = [
-    "💼 SLT Mobitel – Software Engineering Intern (2024)",
-    "🚀 Vertex – Frontend Developer (2025) • Projects: ExamPro, CIPC Campus",
-    "📱 Freelance – Veterinary Booking System (2025)",
-    "🎯 Final Year Project – Phira (2024)",
+    " SLT Mobitel – Software Engineering Intern (2024)",
+    " Vertex – Frontend Developer (2025)",
+    " Harbour Lines (PVT) LTD – Associate Software Engineer (2026)",
+    " Freelance – Veterinary Booking System & More (2023 - 2026)",
+    " Final Year Project – Phira (2024)",
   ]
 
   const education = [
