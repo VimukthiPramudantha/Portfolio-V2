@@ -35,6 +35,20 @@ const productDesignItems: PortfolioItem[] = [
     delay: 300,
   },
   {
+   id: "refillit",
+    title: "BATTLEZIK",
+    image: "/images/portfolio/Battlezik.png",
+    link: "https://www.battlezik.com/",
+    delay: 300,
+  },
+  {
+   id: "refillit",
+    title: "Harbour Lines (PVT) LTD",
+    image: "/images/portfolio/HarbourLines.png",
+    link: "https://harbourlinesfreight.netlify.app/",
+    delay: 300,
+  },
+  {
     id: "betrusty",
     title: "Veterinary Booking System",
     image: "/images/portfolio/Veterinary_Booking_System.png",
